@@ -29,5 +29,4 @@ const catalogProduct = [
     price: '55444',
     img: './img/dAuto.jpg',
 }
-];
-
+]
