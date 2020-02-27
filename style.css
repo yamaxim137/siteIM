@@ -1,7 +1,7 @@
 .container-product{
    width: 100%; 
    height: 100vh;
-   background-color: rgb(19, 116, 51);
+   background-color: rgb(151, 131, 16);
    display: flex;
    justify-content: space-around;
 }
@@ -10,12 +10,15 @@
     width: 200px; 
     height: 300px;
     background-color:white;
-    border: 1px solid red;
+    border: 1px solid rgb(23, 13, 110);
     text-align: center;
+    align-self: center;
 }
 
 .container-product .item .img{
-    width: 200px; 
-    height: 100%;
+    width: 100%; 
+    height: 30%; 
     background-image: url('./img/audi_a8.jpg');
+    background-size: cover;
+    align-self: center;
 }

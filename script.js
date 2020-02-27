@@ -20,7 +20,7 @@ const catalogProduct = [
 {
     id: '',
     name: 'Reno',
-    price: '3456',
+    price: '34056',
     img: './img/bmw i8 .jpg',
 },
 {
