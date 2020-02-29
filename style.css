@@ -15,7 +15,9 @@
 }
 
 .container-product .item .img{
-    width: 200px; 
-    height: 100%;
+    width: 100%; 
+    height: 100px;
     background-image: url('./img/audi_a8.jpg');
+    /* object-fit: cover; */
+    background-size: cover;
 }
