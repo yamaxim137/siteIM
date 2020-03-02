@@ -23,7 +23,7 @@ class AllProducts{
             let activeText;
 
             if(index === -1){
-                activeText = 'Добавить в корзину';
+                activeText = 'Добавить';
             } else{
                 activeText = 'Удалить из корзины';
             }
@@ -59,7 +59,7 @@ class AllProducts{
                 if (result.statusProduct) {
                     this.innerHTML = 'Удалить из корзины';
                 } else{
-                    this.innerHTML = 'Добавление в корзину';
+                    this.innerHTML = 'Добавление';
                 }
             })
 
