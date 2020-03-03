@@ -1,0 +1,17 @@
+.it1{
+    background-color: rgba(104, 138, 250, 0.692);
+    border: darkmagenta solid 3px;
+    width: 25%;
+    height: 70px;
+}
+
+.it2{
+    background-color: rgb(255, 136, 0);
+    border: rgb(6, 46, 9) solid 3px;
+    width: 25%;
+    height: 80px;
+}
+
+.rut{
+    display: flexbox;
+}
