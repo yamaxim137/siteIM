@@ -28,26 +28,26 @@ class AllProducts{
                 activeText = 'Удалить из корзины';
             }
 
-            let item = this.getProductItem({
+            let item = createOneProduct.getProductItem({
                 tagName:"div",
                 className:"item"
             })
-            let name = this.getProductItem({
+            let name = createOneProduct.getProductItem({
                 tagName:"div",
                 className:"name",
                 textName: this.catalogProduct[i].name
             })
-            let img = this.getProductItem({
+            let img = createOneProduct.getProductItem({
                 tagName:"div",
                 className:"img",
                 backgroundImg: `url(${this.catalogProduct[i].img})`
             })
-            let price = this.getProductItem({
+            let price = createOneProduct.getProductItem({
                 tagName:"div",
                 className:"price",
                 textName: this.catalogProduct[i].price
             })
-            let btn = this.getProductItem({
+            let btn = createOneProduct.getProductItem({
                 tagName:"button",
                 className:"btn",
                 textName: activeText,
@@ -75,17 +75,7 @@ class AllProducts{
 
     }
 
-    getProductItem(card){
-        let element = document.createElement(card.tagName);
-        if('className' in card){element.setAttribute('class', card.className)}
-        if('textName' in card){element.innerHTML =  card.textName;}
-        if('backgroundImg' in card){element.style.backgroundImage = card.backgroundImg;}
-
-        if ('id' in card) {
-            element.setAttribute('id', card.id);
-        }
-        return element;
-    }
+    
 }
 
 let allProducts = new AllProducts('.container-product', '.container-counter', catalogProduct);
