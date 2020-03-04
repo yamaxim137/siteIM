@@ -7,7 +7,7 @@ const catalogProduct = [
     text: '1\nпервый продукт - Ауди а8'
 },
 {
-    id: 'product',
+    id: 'product2',
     name: 'BMW i8',
     price: 171888,
     img: './img/bmw i8 .jpg',
