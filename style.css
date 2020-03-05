@@ -1,6 +1,10 @@
 .container-product{
    width: 100%; 
+<<<<<<< HEAD
    height: 100vh;
+=======
+   height: 90vh;
+>>>>>>> parent of f1c789b... дп з3
    background-color: rgb(151, 131, 16);
    display: flex;
    justify-content: space-around;
